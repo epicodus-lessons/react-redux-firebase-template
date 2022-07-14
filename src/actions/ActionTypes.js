@@ -1,1 +1,1 @@
-export const TOGGLE_FORM = 'TOGGLE_FORM';
+// action constants go here

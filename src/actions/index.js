@@ -1,5 +1,1 @@
-import * as c from './ActionTypes';
-
-export const toggleForm = () => ({
-  type: c.TOGGLE_FORM
-})
+// action creators go here
