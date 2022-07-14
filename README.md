@@ -5,6 +5,7 @@ This template includes the dependencies required to create a project that uses R
 
 - Redux
 - Firebase with a Firestore database and authentication
+- Moment.js
 - React router
 
 However, this project does not include complete configuration and example code for a project that uses all of these technologies. For a complete example project, visit this link:
