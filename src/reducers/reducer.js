@@ -1,1 +1,3 @@
-// a reducer goes here
+export default (state = {}, action) => {
+  return state;
+};
