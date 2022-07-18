@@ -8,9 +8,32 @@ This template includes the dependencies required to create a project that uses R
 - Moment.js
 - React router
 
-However, this project does not include complete configuration and example code for a project that uses all of these technologies. For a complete example project, visit this link:
+If you want further instructions on building out a project that uses this tech, visit this coursework: 
+
+[https://www.learnhowtoprogram.com/react/react-with-nosql](https://www.learnhowtoprogram.com/react/react-with-nosql).
+
+Take note that this project does not include complete configuration and example code for a project that uses all of these technologies. For a complete example project, visit this link:
 
 [https://github.com/epicodus-lessons/help-queue-with-firebase-and-redux](https://github.com/epicodus-lessons/help-queue-with-firebase-and-redux)
+
+## Project Setup
+---
+
+You must set up this project for it to work correctly. 
+
+1. First run `$ npm install` in the root directory of the project. If you encounter errors in this process, remove `package-lock.json` and re-run `$ npm install`.
+2. Create a `.env` file with the following API keys in it. Note that the values for these API keys are placeholders for the actual keys that you'll get from your firebase project. 
+
+```
+REACT_APP_FIREBASE_API_KEY = "YOUR-UNIQUE-CREDENTIALS"
+REACT_APP_FIREBASE_AUTH_DOMAIN = "YOUR-PROJECT-NAME.firebaseapp.com"
+REACT_APP_FIREBASE_PROJECT_ID = "YOUR-PROJECT-FIREBASE-PROJECT-ID"
+REACT_APP_FIREBASE_STORAGE_BUCKET = "YOUR-PROJECT-NAME.appspot.com"
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID = "YOUR-PROJECT-SENDER-ID"
+REACT_APP_FIREBASE_APP_ID = "YOUR-PROJECT-APP-ID"
+```
+
+Now you should be able to serve the project without error. 
 
 ## This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ---
